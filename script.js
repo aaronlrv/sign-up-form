@@ -1,5 +1,5 @@
-let password1 = document.getElementById("password").innerText
-let password2 = document.getElementById("confirm").innerText
+let password1 = document.getElementById("password").value
+let password2 = document.getElementById("confirm").value
 
 function passwordValidation (password1,password2){
     if (password1 === password2){
