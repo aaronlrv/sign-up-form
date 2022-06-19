@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <formgroup> 
-        <legend>Let's do this!</legend>
     <form action="">
+        <legend>Let's do this!</legend>
         <div class="first">
             <label for="name">
                 <span>FIRST NAME </span>
-            <input type="text" name="first_name" id="first">
+            <input type="text" name="first_name" id="first" type="text">
         </label>
         </div>
 
         <div class="email">
             <label for="email">
                 <span>EMAIL</span>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" >
             </label>
         </div>
 
@@ -36,7 +35,7 @@
         <div class="last-name">
             <label for="last">
                 <span>LAST NAME</span>
-                <input type="text" name="last_name" id="last">
+                <input type="text" name="last_name" id="last" type="text">
             </label>
         </div>
 
@@ -54,7 +53,7 @@
             </label>
         </div>
 
-    </formgroup>
+        <button type="submit" onclick="passwordValidation">SUBMIT</button>
         
     </form>
     
