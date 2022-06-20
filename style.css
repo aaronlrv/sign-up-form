@@ -1,9 +1,20 @@
 * {
-    border-style: border-box;
-    padding: 0;
-    margin: 0;
-  }
+  border-style: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+
+.textWrapper{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-left: 15px;
+
+}
 .wrapper{
   display: flex;
 }  
@@ -35,3 +46,5 @@ form{
 legend{
   height: 30px;
 }
+
+
