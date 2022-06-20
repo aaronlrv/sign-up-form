@@ -2,6 +2,7 @@
   border-style: border-box;
   padding: 0;
   margin: 0;
+  background-color: #F5F5F5;
 }
 
 
@@ -13,6 +14,7 @@
   align-items: flex-start;
   gap: 20px;
   margin-left: 15px;
+  
 
 }
 .wrapper{
@@ -33,6 +35,7 @@ form{
   display: flex;
   flex-direction: row;
   gap: 190px;
+
 }
 
 .right-column , .left-column{
