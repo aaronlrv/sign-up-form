@@ -48,6 +48,11 @@ form{
 
 legend{
   height: 30px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-
+label{
+  width: 150px;
+  display: inline-block;
+}
