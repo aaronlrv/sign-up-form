@@ -97,3 +97,15 @@ input{
   border-width: 2px;
   border-radius: 3px;
 }
+
+
+#password:required , #confirm:required {
+  border-width: 2px;
+  border-color: red;
+  box-shadow: 2px;
+}
+
+input:focus{
+  border-color: blue;
+  box-shadow: 2px;
+}
