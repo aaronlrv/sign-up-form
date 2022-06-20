@@ -1,4 +1,5 @@
 let button = document.querySelector("#submit")
+let message = document.querySelector(".message")
 
 function passwordValidation (e){
     event.preventDefault()
@@ -8,8 +9,12 @@ function passwordValidation (e){
     console.log(password)
     console.log(confirmPassword)
     if (password === confirmPassword){
-        alert("Great! Password is correct")
+        message.innerHTML= `
+        <p class="passwordMessage">  Great! Password is correct </p>
+        `
     } else {
-        alert("Uh oh, Your passwords dont match!")
+        message.innerHTML= `
+        <p class="wrongPasswordMessage"> Uh oh, Your passwords dont match! </p>
+        `
     }
 }
