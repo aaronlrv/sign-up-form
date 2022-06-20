@@ -17,3 +17,21 @@ fieldset{
   display: flex;
   flex-direction: column;
 }
+
+form{
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+}
+
+.right-column , .left-column{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 25px;
+}
+
+
+legend{
+  height: 30px;
+}
